@@ -19,7 +19,7 @@
 ## Методы
 - **Прогнозирование:** скользящее среднее (базовая), SARIMA (дополнительная).
 - **Обнаружение аномалий:** Z-Score, IQR, Isolation Forest.
-
+  
 ## Результаты
 
 ### Прогнозирование
@@ -37,8 +37,12 @@
 | IQR | 274 | 6.04% |
 | Isolation Forest | 227 | 5.00% |
 
+#По ссылке https://colab.research.google.com/drive/1duKGE9ulI1IkyovGdiAnQrYHR_2WQSLN?usp=sharing можно запустить на Google Colab
+
+
 ## Запуск
 
 ```bash
 pip install -r requirements.txt
 jupyter notebook
+#
